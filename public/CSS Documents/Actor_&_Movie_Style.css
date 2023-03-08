@@ -1,0 +1,16 @@
+html, body {
+background-image: url("/Pictures/Actor_&_Movie_Wallpaper.jpg");
+    background-size: 1280px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.heading1 {
+    display: inline;
+    left: 530px;
+}
+
+.AMTable {
+    width: 700px;
+    top: 100px;
+    left: 350px;
+}

@@ -1,0 +1,23 @@
+{% extends "Actor_&_Movie_Base.html.twig" %}
+
+{% block body %}
+    <h1 class= "heading1 position-relative text-light">Actor & Movie</h1>
+
+    <table class="AMTable table bg-transparent text-light position-relative">
+        <thead>
+        <tr>
+            <th scope="col">Actor</th>
+            <th scope="col">Movie</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for result in am %}
+            <tr>
+                <td>{{ result.actor }}</td>
+                <td>{{ result.movie }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
